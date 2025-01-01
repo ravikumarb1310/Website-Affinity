@@ -1,0 +1,81 @@
+.intro-container {
+	background-image: url("/images/services.jpg");
+	padding-top: 14rem;
+}
+
+.planned-placements {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-left: 8rem;
+	margin-right: 8rem;
+	margin-top: 8rem;
+	margin-bottom: 8rem;
+}
+
+.planned-placements img {
+	height: 30rem;
+	width: 40rem;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 10px;
+}
+
+.planned-placements h1 {
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+
+.planned-placements p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #4f4f4f;
+}
+
+.emergency-placements {
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+	margin-right: 8rem;
+	margin-left: 8rem;
+	margin-bottom: 8rem;
+}
+
+.emergency-placements h1 {
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+
+.emergency-placements p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #4f4f4f;
+}
+
+.emergency-placements img {
+	height: 30rem;
+	width: 40rem;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 10px;
+}
+
+.emergency-placements-content {
+	background-color: #fcf8ed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.planned-placements-content {
+	background-color: #fcf8ed;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+}

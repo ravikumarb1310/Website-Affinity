@@ -1,0 +1,442 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+
+   <link rel="stylesheet" href="/styles/style.css">
+   <link rel="stylesheet" href="/styles/services.css">
+   <link rel="stylesheet" href="/styles/responsive.css">
+
+   <title>Services | Affinity</title>
+</head>
+
+<body>
+   <!-- header  -->
+   <header>
+      <div class="header-logo">
+         <img class="logo" src="/images/logo.jpg" alt="Logo">
+      </div>
+      <div class="header-nav">
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="our-homes.html">Our Homes</a></li> <!-- Fixed tag closure -->
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle">
+                     We Are Here <span class="dropdown-icon">▼</span>
+                  </a>
+                  <!-- Added dropdown icon -->
+                  <ul class="submenu">
+                     <li><a href="for-young-people.html">For Young People</a></li>
+                     <li><a href="for-parents-carers.html">For Parents & Carers</a></li>
+                     <li><a href="for-professionals.html">For Professionals</a></li>
+                  </ul>
+               </li>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <!-- intro  -->
+   <div class="intro-container">
+      <div class="intro-box">
+         <h1 class="intro-title">Services We Offer</h1>
+
+         <p class="intro-text">Next Stage 4 Life provides residential placements and therapeutic care for children and
+            young people in one of our eight
+            homes in the North West region. Placements can be provided on a planned or emergency basis, depending on the
+            specific
+            needs of the person in question.
+         </p>
+         <div class="button-container">
+            <a href="#contact-section-container">
+               <button class="contact-us-btn">
+                  <span>Contact Us</span>
+                  <img src="/images/contact-us.png" alt="">
+               </button>
+            </a>
+         </div>
+      </div>
+   </div>
+
+   <!-- services list  -->
+   <div class="planned-placements">
+      <img src="/images/planned-placement.jpg" alt="">
+      <div class="planned-placements-content">
+         <h1>Planned Placement</h1>
+         <p>
+            We can accommodate up to two young people in each of our homes. We believe in creating inclusive, bespoke
+            packages of
+            care, education, and health for the vulnerable children and young people in our homes. We work closely with
+            trusted
+            partner organisations, external professionals, the wider care and support system, and families alike. This
+            ensures we
+            have effective and quality services in place that enable children and young people to achieve their expected
+            outcomes.
+            <br><br><br>
+            When planning for a placement, our first task is to complete an impact risk assessment to ensure we have
+            considered how
+            our new young person will match with other children and young people placed. Following this, we encourage
+            visits to and
+            from the young person, their social worker and, where appropriate, family members.
+         </p>
+      </div>
+   </div>
+
+   <div class="emergency-placements">
+      <div class="emergency-placements-content">
+         <h1>Emergency Placements</h1>
+         <p>On occasion Next Stage 4 Life will consider emergency placement referrals, but only if certain conditions
+            are
+            met.
+            Emergency referrals will only be considered appropriate if we have received full information regarding the
+            child or
+            young person's situation and background from the Local Authority. This information will need to be reviewed
+            by
+            both a
+            Senior Manager and the Registered Manager, so that we can completed a full impact risk assessment. This
+            allows
+            us to
+            ensure that any identified risks can be properly managed and mitigated against.</p>
+      </div>
+      <img src="/images/emergency-placement.jpg" alt="">
+   </div>
+
+   <!-- contact form Home Page  -->
+   <div class="contact-section-container" id="contact-section-container-id">
+      <p class="contact-section-header">For more information about the work we do here at Affinity, click on one of the
+         links above, or get in touch with the team. You can call us today on 01942 818 569 to ask any questions you
+         might have.
+      </p>
+
+      <div class="contact-section-content" id="contact-section-container">
+         <img src="/images/contact-us.jpg" alt="" class="contact-image">
+         <div class="contact-form-container">
+            <form class="contact-form">
+               <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+               </div>
+               <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+               </div>
+               <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message" rows="6" placeholder="Write your message here..."
+                     required></textarea>
+               </div>
+               <div class="form-terms">
+                  <input type="checkbox" id="terms" name="terms" required>
+                  <label for="terms">By clicking on this I agree to the <a href="#" class="terms-link">terms and
+                        conditions</a>.</label>
+               </div>
+               <button class="send-msg-btn">
+                  <span class="send-msg-btn-text">Send Message</span>
+                  <span class="send-msg-btn-img"> <img src="/images/arrow.png" alt=""> </span>
+               </button>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <!-- footer  -->
+   <footer>
+      <div class="footer-address">
+         <img class="logo" src="/images/logo.jpg" alt="">
+         <address>
+            Comtech House, <br>
+            28 Manchester Rd, <br>
+            Westhoughton, <br>
+            Bolton <br>
+            BL5 3QJ
+         </address>
+      </div>
+
+      <div class="footer-links">
+         <p class="quick-links">Quick Links</p>
+         <!-- update <a href=""> </a> -->
+         <div class="link-list">
+            <ul class="ul1">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="our-homes.html">Our Homes</a>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+            <ul class="ul2">
+               <li class="footer-we-are-here">
+                  We Are Here
+                  <ul>
+                     <li class="list1"><a href="young-people.html">For Young People</a></li>
+                     <li class="list1"><a href="parents-carers.html">For Parents & Carers</a></li>
+                     <li class="list1"><a href="professionals.html">For Professionals</a></li>
+                  </ul>
+               </li>
+
+            </ul>
+            <ul class="ul3">
+               <!-- update these !!!!!!!!!!!! -->
+               <li><a href="#">Terms & Conditions</a></li>
+               <li><a href="#">Privacy Policies</a></li>
+            </ul>
+         </div>
+      </div>
+
+      <div class="footer-form-container">
+
+         <div class="footer-form">
+            <div class="footer-your-name">
+               <p>Your Name</p>
+               <input type="text">
+            </div>
+            <div class="footer-your-email">
+               <p>Email Address</p>
+               <input type="text">
+            </div>
+         </div>
+         <div class="footer-your-message">
+            <p>Your Message</p>
+            <textarea></textarea>
+         </div>
+         <button class="footer-send-msg-btn">Send Message</button>
+      </div>
+   </footer>
+</body>
+
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+
+   <link rel="stylesheet" href="/styles/style.css">
+   <link rel="stylesheet" href="/styles/services.css">
+   <link rel="stylesheet" href="/styles/responsive.css">
+
+   <title>Services | Affinity</title>
+</head>
+
+<body>
+   <!-- header  -->
+   <header>
+      <div class="header-logo">
+         <img class="logo" src="/images/logo.jpg" alt="Logo">
+      </div>
+      <div class="header-nav">
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="our-homes.html">Our Homes</a></li> <!-- Fixed tag closure -->
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle">
+                     We Are Here <span class="dropdown-icon">▼</span>
+                  </a>
+                  <!-- Added dropdown icon -->
+                  <ul class="submenu">
+                     <li><a href="for-young-people.html">For Young People</a></li>
+                     <li><a href="for-parents-carers.html">For Parents & Carers</a></li>
+                     <li><a href="for-professionals.html">For Professionals</a></li>
+                  </ul>
+               </li>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <!-- intro  -->
+   <div class="intro-container">
+      <div class="intro-box">
+         <h1 class="intro-title">Services We Offer</h1>
+
+         <p class="intro-text">Next Stage 4 Life provides residential placements and therapeutic care for children and
+            young people in one of our eight
+            homes in the North West region. Placements can be provided on a planned or emergency basis, depending on the
+            specific
+            needs of the person in question.
+         </p>
+         <div class="button-container">
+            <a href="#contact-section-container">
+               <button class="contact-us-btn">
+                  <span>Contact Us</span>
+                  <img src="/images/contact-us.png" alt="">
+               </button>
+            </a>
+         </div>
+      </div>
+   </div>
+
+   <!-- services list  -->
+   <div class="planned-placements">
+      <img src="/images/planned-placement.jpg" alt="">
+      <div class="planned-placements-content">
+         <h1>Planned Placement</h1>
+         <p>
+            We can accommodate up to two young people in each of our homes. We believe in creating inclusive, bespoke
+            packages of
+            care, education, and health for the vulnerable children and young people in our homes. We work closely with
+            trusted
+            partner organisations, external professionals, the wider care and support system, and families alike. This
+            ensures we
+            have effective and quality services in place that enable children and young people to achieve their expected
+            outcomes.
+            <br><br><br>
+            When planning for a placement, our first task is to complete an impact risk assessment to ensure we have
+            considered how
+            our new young person will match with other children and young people placed. Following this, we encourage
+            visits to and
+            from the young person, their social worker and, where appropriate, family members.
+         </p>
+      </div>
+   </div>
+
+   <div class="emergency-placements">
+      <div class="emergency-placements-content">
+         <h1>Emergency Placements</h1>
+         <p>On occasion Next Stage 4 Life will consider emergency placement referrals, but only if certain conditions
+            are
+            met.
+            Emergency referrals will only be considered appropriate if we have received full information regarding the
+            child or
+            young person's situation and background from the Local Authority. This information will need to be reviewed
+            by
+            both a
+            Senior Manager and the Registered Manager, so that we can completed a full impact risk assessment. This
+            allows
+            us to
+            ensure that any identified risks can be properly managed and mitigated against.</p>
+      </div>
+      <img src="/images/emergency-placement.jpg" alt="">
+   </div>
+
+   <!-- contact form Home Page  -->
+   <div class="contact-section-container" id="contact-section-container-id">
+      <p class="contact-section-header">For more information about the work we do here at Affinity, click on one of the
+         links above, or get in touch with the team. You can call us today on 01942 818 569 to ask any questions you
+         might have.
+      </p>
+
+      <div class="contact-section-content" id="contact-section-container">
+         <img src="/images/contact-us.jpg" alt="" class="contact-image">
+         <div class="contact-form-container">
+            <form class="contact-form">
+               <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+               </div>
+               <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+               </div>
+               <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message" rows="6" placeholder="Write your message here..."
+                     required></textarea>
+               </div>
+               <div class="form-terms">
+                  <input type="checkbox" id="terms" name="terms" required>
+                  <label for="terms">By clicking on this I agree to the <a href="#" class="terms-link">terms and
+                        conditions</a>.</label>
+               </div>
+               <button class="send-msg-btn">
+                  <span class="send-msg-btn-text">Send Message</span>
+                  <span class="send-msg-btn-img"> <img src="/images/arrow.png" alt=""> </span>
+               </button>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <!-- footer  -->
+   <footer>
+      <div class="footer-address">
+         <img class="logo" src="/images/logo.jpg" alt="">
+         <address>
+            Comtech House, <br>
+            28 Manchester Rd, <br>
+            Westhoughton, <br>
+            Bolton <br>
+            BL5 3QJ
+         </address>
+      </div>
+
+      <div class="footer-links">
+         <p class="quick-links">Quick Links</p>
+         <!-- update <a href=""> </a> -->
+         <div class="link-list">
+            <ul class="ul1">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="services.html">Services</a></li>
+               <li><a href="our-homes.html">Our Homes</a>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+            <ul class="ul2">
+               <li class="footer-we-are-here">
+                  We Are Here
+                  <ul>
+                     <li class="list1"><a href="young-people.html">For Young People</a></li>
+                     <li class="list1"><a href="parents-carers.html">For Parents & Carers</a></li>
+                     <li class="list1"><a href="professionals.html">For Professionals</a></li>
+                  </ul>
+               </li>
+
+            </ul>
+            <ul class="ul3">
+               <!-- update these !!!!!!!!!!!! -->
+               <li><a href="#">Terms & Conditions</a></li>
+               <li><a href="#">Privacy Policies</a></li>
+            </ul>
+         </div>
+      </div>
+
+      <div class="footer-form-container">
+
+         <div class="footer-form">
+            <div class="footer-your-name">
+               <p>Your Name</p>
+               <input type="text">
+            </div>
+            <div class="footer-your-email">
+               <p>Email Address</p>
+               <input type="text">
+            </div>
+         </div>
+         <div class="footer-your-message">
+            <p>Your Message</p>
+            <textarea></textarea>
+         </div>
+         <button class="footer-send-msg-btn">Send Message</button>
+      </div>
+   </footer>
+</body>
+
+>>>>>>> e51d6b6 (add initial files)
+</html>

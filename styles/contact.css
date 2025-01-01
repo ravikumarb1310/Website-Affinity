@@ -1,0 +1,130 @@
+.intro-container {
+	background-image: url("/images/bg-contact-us.jpg");
+	line-height: 1.6 !important;
+}
+
+.contact-us-form {
+	display: flex;
+	flex-direction: row;
+	padding: 8rem 10rem;
+	padding-bottom: 8rem;
+	background-color: #edf7ea;
+	gap: 8rem;
+}
+
+/* form  */
+.contact-form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 500px;
+	margin-right: 4rem;
+}
+
+.contact-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.form-group label {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	padding: 0.75rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 1rem 0;
+}
+
+.form-terms {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 14px;
+	margin-bottom: 1rem;
+}
+
+.terms-link {
+	color: #007bff;
+	text-decoration: none;
+}
+
+.terms-link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.form-group input:hover,
+.form-group textarea:hover {
+	outline: 2px solid #0c4e37;
+	cursor: pointer;
+}
+
+/* send message btn  */
+
+.send-msg-btn {
+	height: 60px;
+	width: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: none;
+	overflow: hidden;
+	cursor: pointer;
+	box-sizing: border-box;
+	transition: transform 0.3s ease;
+	background: linear-gradient(to right, #dc797c 70%, #d15a5e 30%);
+}
+
+.send-msg-btn-text {
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	margin: 0 12px;
+}
+
+.send-msg-btn-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.send-msg-btn-img img {
+	width: 20px;
+	margin-left: 20px;
+}
+
+.send-msg-btn:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.contact-info {
+	color: #333;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.contact-info h1 {
+	margin-bottom: 1rem;
+}
+
+.contact-info address {
+	margin-bottom: 1rem;
+}
+
+.contact-info a {
+	color: #0c4e37;
+	font-weight: 600;
+}
+
+.contact-info p {
+	margin-top: 1rem;
+}

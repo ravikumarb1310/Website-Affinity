@@ -1,0 +1,157 @@
+.intro-container {
+	background-image: url("/images/bg-young-people.jpg");
+	line-height: 1.6 !important;
+	min-height: 50rem !important;
+}
+
+.options-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 8rem 6rem;
+	gap: 3rem;
+	justify-content: space-between;
+}
+
+.options-list {
+	display: flex;
+	flex-direction: column;
+	max-width: 260px;
+	text-align: center;
+	align-items: center;
+}
+
+.options-list img {
+	height: 100px;
+	width: 100px;
+	padding: 24px;
+	margin-bottom: 2rem;
+}
+
+.options-list p {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.options-list-1 {
+	background-color: #3ca2c8;
+}
+
+.options-list-2 {
+	background-color: #ea1953;
+}
+
+.options-list-3 {
+	background-color: #b3e561;
+}
+
+.options-list-4 {
+	background-color: #c4b5e0;
+}
+
+.w-a-h-left-container {
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+	margin-bottom: 4rem;
+	padding: 4rem 8rem;
+	align-items: center;
+}
+
+.w-a-h-left-container {
+	background-color: #fcf8ed;
+}
+
+.w-a-h-friends-family-container {
+	background-color: #022e3d;
+	color: white !important;
+}
+
+.w-a-h-friends-family-container p {
+	color: white !important;
+}
+
+.w-a-h-left-container h1 {
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+
+.w-a-h-left-container p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #4f4f4f;
+}
+
+.w-a-h-left-container img {
+	height: 30rem;
+	width: 40rem;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 10px;
+}
+
+.w-a-h-left-container-content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.w-a-h-right-container {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-left: 8rem;
+	margin-right: 8rem;
+	margin-bottom: 4rem;
+	align-items: center;
+}
+
+.w-a-h-right-container img {
+	height: 30rem;
+	width: 40rem;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 10px;
+}
+
+.w-a-h-right-container h1 {
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+
+.w-a-h-right-container p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #4f4f4f;
+}
+
+.w-a-h-right-container-content {
+	background-color: #fcf8ed;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+}
+
+.info-complaints,
+.info-your-plans {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 4rem 0;
+	margin-top: 4rem;
+}
+
+.info-complaints {
+	background-color: #f9fafb;
+}
+
+.info-your-plans {
+	margin-bottom: 8rem;
+}
