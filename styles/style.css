@@ -161,7 +161,9 @@ body {
 		width: 20px;
 		margin-left: 20px;
 	}
-
+	.contact-header {
+		font-size: 18px;
+	}
 	.contact-section-container {
 		padding: 4rem 14rem;
 		gap: 4rem;
@@ -341,6 +343,9 @@ body {
 	.contact-section-container {
 		padding: 4rem 14rem;
 		gap: 4rem;
+	}
+	.contact-header {
+		font-size: 18px;
 	}
 	.contact-us-form p {
 		font-size: 16px;
@@ -527,6 +532,9 @@ body {
 		padding: 4rem 10rem 6rem 10rem;
 		gap: 4rem;
 	}
+	.contact-header {
+		font-size: 16px;
+	}
 
 	.contact-us-form-btn {
 		padding: 10px 16px;
@@ -702,7 +710,9 @@ body {
 		width: 20px;
 		margin-left: 20px;
 	}
-
+	.contact-header {
+		font-size: 14px;
+	}
 	.contact-section-container {
 		padding: 4rem 4rem;
 		gap: 4rem;
@@ -885,7 +895,9 @@ body {
 	.contact-us-form-btn {
 		padding: 4px 10px;
 	}
-
+	.contact-header {
+		font-size: 14px;
+	}
 	.contact-us-form-btn-text {
 		font-size: 14px;
 		color: white;
@@ -904,7 +916,6 @@ body {
 	.contact-details {
 		font-size: 16px;
 	}
-
 
 	footer {
 		font-size: 10px;
