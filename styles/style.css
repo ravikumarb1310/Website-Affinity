@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -6,6 +8,14 @@
 	outline: none;
 	font-family: "Poppins", serif;
 	font-weight: 300;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 html {
@@ -26,33 +36,970 @@ body {
 	font-family: "Poppins", serif;
 }
 
+@media screen and (max-width: 1800px) {
+	header {
+		font-size: 16px;
+		height: 7rem;
+		padding: 1rem 6rem;
+	}
+	.logo {
+		max-width: 160px;
+		height: auto;
+	}
+	.header-nav nav ul {
+		gap: 2rem;
+	}
+
+	.intro-box {
+		padding-left: 14rem;
+		padding-right: 14rem;
+	}
+	.intro-title {
+		font-size: 44px;
+		padding-right: 7rem;
+		padding-left: 7rem;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-subtitle {
+		font-size: 28px;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-text {
+		padding: 0 6rem;
+		margin-top: 3rem;
+		font-size: 16px;
+	}
+
+	.intro-company-name {
+		font-size: 2rem;
+		margin-top: 12rem;
+		padding-right: 5rem;
+		padding-left: 5rem;
+	}
+
+	.button-container {
+		margin-top: 60px;
+		margin-bottom: 150px;
+	}
+	.contact-us-btn {
+		height: 50px;
+		padding: 0 20px;
+		font-size: 16px;
+		margin-top: 2rem;
+	}
+	.contact-us-btn img {
+		height: 40px;
+		margin-left: 10px;
+	}
+
+	.info-header {
+		font-weight: 400;
+		font-size: 34px;
+	}
+	.info-content {
+		padding: 0rem 10rem;
+		font-size: 18px;
+	}
+
+	.info-what-we-do,
+	.info-guidance,
+	.info-our-homes,
+	.info-who-we-are {
+		margin-top: 8rem;
+	}
+	.affinity-name {
+		font-size: 22px;
+	}
+
+	.menu-left-side-image,
+	.menu-right-side-image {
+		gap: 6rem;
+	}
+
+	.menu-left-side-image-content,
+	.menu-right-side-image-content {
+		padding-top: 2rem;
+	}
+
+	.menu-left-side-image-content h1,
+	.menu-right-side-image-content h1 {
+		font-size: 30px;
+		font-weight: 400;
+		margin-bottom: 4rem;
+	}
+
+	.menu-left-side-image-content p,
+	.menu-right-side-image-content p {
+		font-size: 18px;
+		font-weight: 400;
+		margin-bottom: 4rem;
+		color: #434242;
+	}
+
+	.menu-left-side-image-img,
+	.menu-right-side-image-img {
+		height: 500px;
+		width: 700px;
+		object-fit: cover;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.15);
+	}
+
+	.more-info-btn-text {
+		font-size: 16px;
+		font-weight: 400;
+		margin-right: 10px;
+		margin-left: 22px;
+		color: white;
+	}
+	.more-info-btn {
+		height: 40px;
+		width: 160px;
+	}
+	.more-info-btn-img img {
+		width: 20px;
+		margin-left: 20px;
+	}
+	.guidance-menu-content p {
+		font-size: 16px;
+	}
+
+	.contact-section-container {
+		padding: 4rem 14rem;
+		gap: 4rem;
+	}
+	.contact-section-container h1 {
+		font-size: 18px;
+	}
+	.contact-us-form-btn {
+		padding: 10px 20px;
+	}
+
+	.contact-us-form-btn-text {
+		font-size: 18px;
+		color: white;
+		font-weight: 400;
+	}
+
+	.contact-us-form-btn-img img {
+		height: 24px;
+	}
+
+	.contact-info img {
+		height: 30px;
+		margin-bottom: 1rem;
+	}
+
+	.contact-details {
+		font-size: 16px;
+	}
+	.send-msg-btn {
+		height: 60px;
+		width: 200px;
+	}
+	.send-msg-btn-text {
+		font-size: 16px;
+		font-weight: 400;
+		margin: 0 12px;
+	}
+	.send-msg-btn-img img {
+		width: 20px;
+		margin-left: 20px;
+	}
+
+	footer {
+		font-size: 16px;
+		padding: 2rem 10rem 2rem 8rem;
+	}
+	.footer-links {
+		margin-left: 12rem;
+	}
+	.quick-links {
+		margin-bottom: 3rem;
+		font-size: 18px;
+		margin-top: 1rem;
+	}
+	.link-list {
+		gap: 4rem;
+	}
+	.link-list ul li {
+		color: #e2ebc4;
+		margin-top: 5px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	header {
+		font-size: 16px;
+		height: 7rem;
+		padding: 1rem 1rem;
+	}
+	.logo {
+		max-width: 150px;
+		height: auto;
+	}
+	.header-nav nav ul {
+		gap: 2rem;
+	}
+
+	.intro-box {
+		padding-left: 14rem;
+		padding-right: 14rem;
+	}
+	.intro-title {
+		font-size: 44px;
+		padding-right: 7rem;
+		padding-left: 7rem;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-subtitle {
+		font-size: 28px;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-text {
+		padding: 0 6rem;
+		margin-top: 3rem;
+		font-size: 16px;
+	}
+
+	.intro-company-name {
+		font-size: 2rem;
+		margin-top: 12rem;
+		padding-right: 5rem;
+		padding-left: 5rem;
+	}
+
+	.button-container {
+		margin-top: 60px;
+		margin-bottom: 150px;
+	}
+	.contact-us-btn {
+		height: 50px;
+		padding: 0 20px;
+		font-size: 16px;
+		margin-top: 2rem;
+	}
+	.contact-us-btn img {
+		height: 40px;
+		margin-left: 10px;
+	}
+
+	.info-header {
+		font-weight: 400;
+		font-size: 34px;
+	}
+	.info-content {
+		padding: 0rem 10rem;
+		font-size: 16px;
+	}
+
+	.info-what-we-do,
+	.info-guidance,
+	.info-our-homes,
+	.info-who-we-are {
+		margin-top: 8rem;
+	}
+	.affinity-name {
+		font-size: 22px;
+	}
+
+	.menu-left-side-image,
+	.menu-right-side-image {
+		gap: 5rem;
+	}
+
+	.menu-left-side-image-content,
+	.menu-right-side-image-content {
+		padding-top: 1rem;
+	}
+
+	.menu-left-side-image-content h1,
+	.menu-right-side-image-content h1 {
+		font-size: 28px;
+		font-weight: 400;
+		margin-bottom: 3rem;
+	}
+
+	.menu-left-side-image-content p,
+	.menu-right-side-image-content p {
+		font-size: 16px;
+		font-weight: 400;
+		margin-bottom: 3rem;
+		color: #434242;
+	}
+
+	.menu-left-side-image-img,
+	.menu-right-side-image-img {
+		height: 400px;
+		width: 600px;
+		object-fit: cover;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.15);
+	}
+
+	.more-info-btn-text {
+		font-size: 16px;
+		font-weight: 400;
+		margin-right: 10px;
+		margin-left: 22px;
+		color: white;
+	}
+	.more-info-btn {
+		height: 40px;
+		width: 160px;
+	}
+	.more-info-btn-img img {
+		width: 20px;
+		margin-left: 20px;
+	}
+	.guidance-menu-content p {
+		font-size: 16px;
+	}
+
+	.contact-section-container {
+		padding: 4rem 14rem;
+		gap: 4rem;
+	}
+	.contact-section-container h1 {
+		font-size: 18px !important;
+	}
+	.contact-us-form p {
+		font-size: 16px;
+	}
+	.contact-us-form-btn {
+		padding: 8px 15px;
+	}
+
+	.contact-us-form-btn-text {
+		font-size: 16px;
+		color: white;
+		font-weight: 400;
+	}
+
+	.contact-us-form-btn-img img {
+		height: 18px;
+	}
+
+	.contact-info img {
+		height: 30px;
+		margin-bottom: 1rem;
+	}
+
+	.contact-details {
+		font-size: 16px;
+	}
+	.send-msg-btn {
+		height: 60px;
+		width: 200px;
+	}
+	.send-msg-btn-text {
+		font-size: 16px;
+		font-weight: 400;
+		margin: 0 12px;
+	}
+	.send-msg-btn-img img {
+		width: 20px;
+		margin-left: 20px;
+	}
+
+	footer {
+		font-size: 14px;
+		padding: 2rem;
+	}
+	.footer-links {
+		margin-left: 12rem;
+	}
+	.quick-links {
+		margin-bottom: 3rem;
+		font-size: 16px;
+		margin-top: 1rem;
+	}
+
+	.link-list {
+		gap: 5rem;
+	}
+	.link-list ul li {
+		color: #e2ebc4;
+		margin-top: 5px;
+	}
+	.footer-address img {
+		margin-bottom: 20px;
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	header {
+		font-size: 16px;
+		height: 7rem;
+		padding: 1rem 1rem;
+	}
+	.logo {
+		max-width: 150px;
+		height: auto;
+	}
+	.header-nav nav ul {
+		gap: 2rem;
+	}
+
+	.intro-box {
+		padding-left: 12rem;
+		padding-right: 12rem;
+	}
+	.intro-title {
+		font-size: 32px;
+		padding-right: 4rem;
+		padding-left: 4rem;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-subtitle {
+		font-size: 22px;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-text {
+		padding: 0;
+		margin-top: 3rem;
+		font-size: 14px;
+	}
+
+	.intro-company-name {
+		font-size: 2rem;
+		margin-top: 12rem;
+		padding-right: 5rem;
+		padding-left: 5rem;
+	}
+
+	.button-container {
+		margin-top: 60px;
+		margin-bottom: 150px;
+	}
+	.contact-us-btn {
+		height: 40px;
+		padding: 0 14px;
+		font-size: 14px;
+		margin-top: 2rem;
+	}
+	.contact-us-btn img {
+		height: 24px;
+		margin-left: 10px;
+	}
+
+	.info-header {
+		font-weight: 400;
+		font-size: 34px;
+	}
+	.info-content {
+		padding: 0rem 10rem;
+		font-size: 16px;
+	}
+
+	.info-what-we-do,
+	.info-guidance,
+	.info-our-homes,
+	.info-who-we-are {
+		margin-top: 6rem;
+	}
+	.affinity-name {
+		font-size: 22px;
+	}
+
+	.menu-left-side-image,
+	.menu-right-side-image {
+		gap: 5rem;
+	}
+
+	.menu-left-side-image-content,
+	.menu-right-side-image-content {
+		padding-top: 1rem;
+	}
+
+	.menu-left-side-image-content h1,
+	.menu-right-side-image-content h1 {
+		font-size: 28px;
+		font-weight: 400;
+		margin-bottom: 3rem;
+	}
+
+	.menu-left-side-image-content p,
+	.menu-right-side-image-content p {
+		font-size: 16px;
+		font-weight: 400;
+		margin-bottom: 3rem;
+		color: #434242;
+	}
+
+	.menu-left-side-image-img,
+	.menu-right-side-image-img {
+		height: 400px;
+		width: 400px;
+		object-fit: cover;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.15);
+	}
+
+	.more-info-btn-text {
+		font-size: 16px;
+		font-weight: 400;
+		margin-right: 10px;
+		margin-left: 22px;
+		color: white;
+	}
+	.more-info-btn {
+		height: 40px;
+		width: 160px;
+	}
+	.more-info-btn-img img {
+		width: 20px;
+		margin-left: 20px;
+	}
+	.guidance-menu-content p {
+		font-size: 16px;
+	}
+
+	.contact-section-container {
+		padding: 4rem 10rem 6rem 10rem;
+		gap: 4rem;
+	}
+	.contact-section-container h1 {
+		font-size: 20px;
+	}
+
+	.contact-us-form-btn {
+		padding: 10px 16px;
+	}
+
+	.contact-us-form-btn-text {
+		font-size: 16px;
+		color: white;
+		font-weight: 400;
+	}
+
+	.contact-us-form-btn-img img {
+		height: 22px;
+	}
+
+	.contact-info img {
+		height: 30px;
+		margin-bottom: 1rem;
+	}
+
+	.contact-details {
+		font-size: 16px;
+	}
+
+	footer {
+		font-size: 14px;
+		padding: 2rem;
+	}
+	.footer-links {
+		margin-left: 8rem;
+	}
+	.quick-links {
+		margin-bottom: 1rem;
+		font-size: 16px;
+		margin-top: 1rem;
+	}
+
+	.link-list {
+		gap: 4rem;
+	}
+	.link-list ul li {
+		color: #e2ebc4;
+		margin-top: 5px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		font-size: 14px;
+		height: 5rem;
+		padding: 1rem 1rem;
+	}
+	.logo {
+		max-width: 100px;
+		height: auto;
+	}
+	.header-nav nav ul {
+		gap: 0.7rem;
+	}
+
+	.intro-box {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+	.intro-title {
+		font-size: 30px;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-subtitle {
+		font-size: 24px;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-text {
+		padding: 0 6rem;
+		margin-top: 3rem;
+		font-size: 14px;
+	}
+
+	.intro-company-name {
+		font-size: 2rem;
+		margin-top: 12rem;
+		padding-right: 5rem;
+		padding-left: 5rem;
+	}
+
+	.button-container {
+		margin-top: 60px;
+		margin-bottom: 150px;
+	}
+
+	.contact-us-btn {
+		height: 50px;
+		padding: 0 20px;
+		font-size: 16px;
+		margin-top: 2rem;
+	}
+	.contact-us-btn img {
+		height: 40px;
+		margin-left: 10px;
+	}
+
+	.info-header {
+		font-weight: 400;
+		font-size: 34px;
+	}
+	.info-content {
+		padding: 0rem 4rem;
+		font-size: 16px;
+	}
+
+	.info-what-we-do,
+	.info-guidance,
+	.info-our-homes,
+	.info-who-we-are {
+		margin-top: 4rem;
+		margin-bottom: 0;
+	}
+	.affinity-name {
+		font-size: 22px;
+	}
+
+	.menu-left-side-image,
+	.menu-right-side-image {
+		gap: 3rem;
+		margin-top: 0;
+	}
+
+	.menu-left-side-image-content,
+	.menu-right-side-image-content {
+		padding-top: 1rem;
+	}
+
+	.menu-left-side-image-content h1,
+	.menu-right-side-image-content h1 {
+		font-size: 22px;
+		font-weight: 400;
+		margin-bottom: 1rem;
+	}
+
+	.menu-left-side-image-content p,
+	.menu-right-side-image-content p {
+		font-size: 12px;
+		font-weight: 400;
+		margin-bottom: 2rem;
+		color: #434242;
+	}
+
+	.menu-left-side-image-img,
+	.menu-right-side-image-img {
+		height: 200px;
+		width: 350px;
+		object-fit: cover;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.15);
+	}
+
+	.more-info-btn-text {
+		font-size: 16px;
+		font-weight: 400;
+		margin-right: 10px;
+		margin-left: 22px;
+		color: white;
+	}
+	.more-info-btn {
+		height: 40px;
+		width: 160px;
+	}
+	.more-info-btn-img img {
+		width: 20px;
+		margin-left: 20px;
+	}
+	.guidance-menu-content p {
+		font-size: 16px;
+	}
+
+	.contact-section-container {
+		padding: 4rem 4rem;
+		gap: 4rem;
+	}
+	.contact-section-container h1 {
+		font-size: 16px;
+	}
+	.contact-us-form-btn {
+		padding: 8px 16px;
+	}
+
+	.contact-us-form-btn-text {
+		font-size: 14px;
+		color: white;
+		font-weight: 400;
+	}
+
+	.contact-us-form-btn-img img {
+		height: 24px;
+	}
+
+	.contact-info img {
+		height: 30px;
+		margin-bottom: 1rem;
+	}
+
+	.contact-details {
+		font-size: 16px;
+	}
+
+	footer {
+		font-size: 12px;
+		padding: 2rem;
+	}
+	.footer-links {
+		margin-left: 6rem;
+	}
+
+	.quick-links {
+		margin-bottom: 1rem;
+		font-size: 14px;
+		margin-top: 1rem;
+	}
+	.link-list {
+		gap: 2rem;
+	}
+	.link-list ul li {
+		color: #e2ebc4;
+		margin-top: 5px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	header {
+		font-size: 10px;
+		height: 4rem;
+		padding: 1rem 1rem;
+	}
+	.logo {
+		max-width: 80px;
+		height: auto;
+	}
+	.header-nav nav ul {
+		gap: 0.8rem;
+	}
+
+	.intro-box {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	.intro-title {
+		font-size: 24px;
+		margin-top: 1rem;
+		font-weight: 400;
+	}
+	.intro-subtitle {
+		font-size: 20px;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-text {
+		padding: 0 2rem;
+		margin-top: 3rem;
+		font-size: 12px;
+	}
+
+	.intro-company-name {
+		font-size: 2rem;
+		margin-top: 6rem;
+	}
+
+	.button-container {
+		margin-top: 40px;
+		margin-bottom: 80px;
+	}
+	.contact-us-btn {
+		height: 40px;
+		padding: 0 16px;
+		font-size: 12px;
+		margin-top: 2rem;
+	}
+	.contact-us-btn img {
+		height: 30px;
+		margin-left: 10px;
+	}
+
+	.info-header {
+		font-weight: 400;
+		font-size: 26px;
+	}
+	.info-content {
+		padding: 0rem 2rem;
+		font-size: 14px;
+	}
+
+	.info-what-we-do,
+	.info-guidance,
+	.info-our-homes,
+	.info-who-we-are {
+		margin-top: 4rem;
+	}
+	.affinity-name {
+		font-size: 22px;
+	}
+
+	.menu-left-side-image,
+	.menu-right-side-image {
+		gap: 2rem;
+		margin-top: 0;
+	}
+
+	.menu-left-side-image-content,
+	.menu-right-side-image-content {
+		padding-top: 1rem;
+	}
+
+	.menu-left-side-image-content h1,
+	.menu-right-side-image-content h1 {
+		font-size: 20px;
+		font-weight: 400;
+		margin-bottom: 1rem;
+	}
+
+	.menu-left-side-image-content p,
+	.menu-right-side-image-content p {
+		font-size: 12px;
+		font-weight: 400;
+		margin-bottom: 1rem;
+		color: #434242;
+	}
+
+	.menu-left-side-image-img,
+	.menu-right-side-image-img {
+		height: 300px;
+		width: 200px;
+		object-fit: cover;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.15);
+	}
+
+	.more-info-btn-text {
+		font-size: 12px;
+		font-weight: 400;
+		margin-right: 6px;
+		margin-left: 12px;
+		color: white;
+	}
+	.more-info-btn {
+		height: 30px;
+		width: 120px;
+	}
+	.more-info-btn-img img {
+		width: 16px;
+		margin-left: 20px;
+	}
+
+	.contact-section-container {
+		padding: 4rem 4rem;
+		gap: 4rem;
+	}
+	.contact-section-container-h1 {
+		font-size: 12px;
+	}
+	.contact-us-form-btn {
+		padding: 4px 10px;
+	}
+
+	.contact-us-form-btn-text {
+		font-size: 14px;
+		color: white;
+		font-weight: 400;
+	}
+
+	.contact-us-form-btn-img img {
+		height: 24px;
+	}
+
+	.contact-info img {
+		height: 30px;
+		margin-bottom: 1rem;
+	}
+
+	.contact-details {
+		font-size: 16px;
+	}
+	.send-msg-btn {
+		height: 60px;
+		width: 200px;
+	}
+	.send-msg-btn-text {
+		font-size: 16px;
+		font-weight: 400;
+		margin: 0 12px;
+	}
+	.send-msg-btn-img img {
+		width: 20px;
+		margin-left: 20px;
+	}
+
+	footer {
+		font-size: 10px;
+		padding: 2rem;
+	}
+	.footer-links {
+		font-size: 10px;
+	}
+	.quick-links {
+		margin-bottom: 1rem;
+		font-size: 12px;
+		margin-top: 1rem;
+	}
+	.link-list {
+		gap: 2rem;
+	}
+	.link-list ul li {
+		color: #e2ebc4;
+		margin-top: 5px;
+	}
+}
+
 header {
-	background: #fff;
-	height: 7rem;
+	background: #fff !important;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem 2rem;
-	font-size: 1.2rem;
-	position: relative; /* Ensure header is a containing block */
-	z-index: 100; /* Keep header above other elements */
-}
-
-.logo {
-	max-width: 150px;
-	height: auto;
+	position: relative;
+	z-index: 100;
 }
 
 /* nav bar  */
 .header-nav nav ul {
 	display: flex;
-	gap: 2rem;
 	list-style: none;
 	justify-content: end;
 	align-items: center;
 }
+
 .header-nav nav ul li {
-	position: relative; /* Needed for submenu positioning */
+	position: relative;
 }
 
 .header-nav nav ul li a {
@@ -60,7 +1007,6 @@ header {
 	color: #333;
 	font-weight: 400;
 	transition: color 0.3s;
-	font-size: 1rem;
 }
 
 .header-nav nav ul li a {
@@ -95,11 +1041,11 @@ header {
 	transform: rotate(180deg);
 }
 .header-nav .dropdown .submenu {
-	display: none; /* Ensure submenu is hidden */
+	display: none;
 }
 .submenu {
 	display: none;
-	width: max-content; /* Keep size consistent */
+	width: max-content;
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -142,7 +1088,7 @@ header {
 
 .dropdown:hover .dropdown-icon {
 	transform: rotate(180deg);
-	width: max-content; /* Consistent width */
+	width: max-content;
 }
 
 /* Intro Section */
@@ -175,75 +1121,41 @@ header {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	padding-left: 22rem;
-	padding-right: 22rem;
 }
 .intro-company-name {
-	font-size: 2rem;
-	margin-top: 12rem;
-	padding-right: 5rem;
-	padding-left: 5rem;
 	color: #ff5757;
 	font-weight: 600;
 }
 
-.intro-title {
-	margin-top: 2rem;
-	font-size: 44px;
-	font-weight: 400;
-	padding-right: 5rem;
-	padding-left: 5rem;
-}
-
-.intro-subtitle {
-	margin-top: 2rem;
-	font-size: 28px;
-	font-weight: 400;
-}
 .intro-text {
-	margin-top: 3rem;
 	text-align: center;
-	font-size: 16px;
 	font-weight: 300;
-	margin-left: 6rem;
-	margin-right: 6rem;
 }
 .button-container {
 	display: flex;
 	justify-content: center;
-	margin-top: 60px;
-	margin-bottom: 150px;
 }
 
 .contact-us-btn {
-	height: 50px;
 	border-radius: 25px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	padding: 0 20px;
 	text-decoration: none;
 	background-color: #ffffff;
 	color: black;
-	font-size: 16px;
 	font-weight: 600;
 	border: none;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.15);
 	cursor: pointer;
 	transition: box-shadow 0.5s ease, transform 0.5s ease;
-	margin-top: 2rem;
 }
 
 .contact-us-btn a {
 	text-decoration: none;
 	color: black;
 	font-weight: 400;
-}
-
-.contact-us-btn img {
-	height: 40px;
-	margin-left: 10px;
 }
 
 .contact-us-btn:hover {
@@ -260,17 +1172,12 @@ header {
 footer {
 	background-color: #184233;
 	text-align: center;
-	padding: 2rem 1rem;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	font-size: 16px;
-	/* margin-top: 500px; */
+	justify-content: left;
 }
 
 .footer-address {
-	max-width: 10rem;
-	margin-left: 2rem;
 	margin-top: 1rem;
 }
 
@@ -287,21 +1194,13 @@ footer a {
 }
 
 .footer-links {
-	max-width: 60rem;
 	display: flex;
 	flex-direction: column;
 }
 
-.quick-links {
-	margin-bottom: 3rem;
-	font-size: 18px;
-	margin-top: 1rem;
-}
-
 .link-list {
 	display: flex;
-	justify-content: space-between;
-	width: 600px;
+	justify-content: flex-start;
 	flex-direction: row;
 }
 
@@ -321,7 +1220,6 @@ footer a {
 
 .link-list ul li {
 	color: #e2ebc4;
-	margin-top: 5px;
 }
 
 .footer-we-are-here,
@@ -335,35 +1233,12 @@ footer a {
 	cursor: pointer;
 }
 
-.footer-form-container {
-	margin-right: 3rem;
-	text-align: left;
-	margin-top: 1rem;
-	color: beige;
-	font-size: 14px;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-
-.footer-your-message textarea {
-	width: 100%;
-}
-
-.footer-send-msg-btn {
-	background-color: #9ebb97;
-	padding: 3px;
-	font-size: 12px;
-	width: 100px;
-}
-
 /* info  */
 
 .info-what-we-do,
 .info-guidance,
 .info-our-homes,
 .info-who-we-are {
-	margin-top: 8rem;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -373,103 +1248,28 @@ footer a {
 .affinity-name {
 	color: #ff5757;
 	font-weight: 600;
-	font-size: 22px;
-}
-
-.info-header {
-	font-weight: 400;
-	font-size: 34px;
 }
 
 .info-content {
-	margin: 0 25rem;
 	font-weight: 400;
 	color: #434242;
-	font-size: 16px;
 	line-height: 1.5;
 }
 
 /* menu-left-side-image  */
 
-.menu-left-side-image {
-	display: flex;
-	flex-direction: row;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	align-items: center;
-}
-
-.menu-left-side-image-img {
-	margin-left: 4rem;
-	margin-right: 6rem;
-	flex-shrink: 0;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.15);
-	object-fit: cover;
-	overflow: hidden;
-	height: 500px;
-	width: 700px;
-}
-
-.menu-left-side-image-content {
-	margin-right: 6rem;
-	text-align: justify;
-}
-
-.menu-left-side-image-content p {
-	font-size: 16px;
-	font-weight: 400;
-	color: #434242;
-	margin-top: 2rem;
-	margin-bottom: 4rem;
-}
-
-.menu-left-side-image-content h1 {
-	color: black !important;
-	text-align: justify;
-}
-
-/* menu-right-side-image  */
-
+.menu-left-side-image,
 .menu-right-side-image {
+	padding: 4rem;
 	display: flex;
 	flex-direction: row;
-	margin-top: 10rem;
-	margin-bottom: 10rem;
-	align-items: center;
-	margin-right: 4rem;
-	margin-left: 6rem;
-}
-
-.menu-right-side-image-img {
-	margin-left: 6rem;
-	height: 500px;
-	width: 700px;
-	object-fit: cover;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.15);
-}
-
-.menu-right-side-image-content p {
-	font-size: 16px;
-	font-weight: 400;
-	color: #434242;
-	margin-top: 2rem;
-	margin-bottom: 4rem;
-}
-
-.menu-right-side-image-content {
-	text-align: justify;
-}
-
-.menu-right-side-image-content h1 {
-	color: black !important;
-	text-align: justify;
+	margin-bottom: 2rem;
+	justify-content: center;
 }
 
 /* more info button  */
 
 .more-info-btn {
-	height: 40px;
-	width: 160px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -481,22 +1281,10 @@ footer a {
 	background: linear-gradient(to right, #dc797c 70%, #d15a5e 30%);
 }
 
-.more-info-btn-text {
-	font-size: 16px;
-	font-weight: 400;
-	margin-right: 10px;
-	margin-left: 22px;
-	color: white;
-}
-
 .more-info-btn-img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-.more-info-btn-img img {
-	width: 20px;
-	margin-left: 20px;
 }
 
 .more-info-btn:hover {
@@ -510,16 +1298,10 @@ footer a {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	padding: 4rem 14rem;
 	background: #f5f5f5;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	gap: 4rem;
-}
-
-.contact-section-container h1 {
-	font-size: 20px;
 }
 
 .contact-info {
@@ -537,7 +1319,6 @@ footer a {
 	align-items: center;
 }
 .contact-us-form p {
-	font-size: 18px;
 	margin-bottom: 1rem;
 }
 
@@ -554,28 +1335,7 @@ footer a {
 	gap: 1rem;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
-	padding: 10px 20px;
 }
-
-.contact-us-form-btn-text {
-	font-size: 18px;
-	color: white;
-	font-weight: 400;
-}
-
-.contact-us-form-btn-img img {
-	height: 24px;
-}
-
-.contact-info img {
-	height: 30px;
-	margin-bottom: 1rem;
-}
-
-.contact-details {
-	font-size: 16px;
-}
-
 .contact-details p {
 	font-weight: 600;
 }
@@ -589,11 +1349,7 @@ footer a {
 	font-weight: 600;
 }
 
-/* send message btn  */
-
-.send-msg-btn {
-	height: 60px;
-	width: 200px;
+/* .send-msg-btn {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -606,10 +1362,7 @@ footer a {
 }
 
 .send-msg-btn-text {
-	font-size: 16px;
-	font-weight: 400;
 	color: white;
-	margin: 0 12px;
 }
 
 .send-msg-btn-img {
@@ -618,12 +1371,7 @@ footer a {
 	justify-content: center;
 }
 
-.send-msg-btn-img img {
-	width: 20px;
-	margin-left: 20px;
-}
-
 .send-msg-btn:hover {
 	transform: scale(1.05);
 	cursor: pointer;
-}
+} */
