@@ -161,9 +161,6 @@ body {
 		width: 20px;
 		margin-left: 20px;
 	}
-	.guidance-menu-content p {
-		font-size: 16px;
-	}
 
 	.contact-section-container {
 		padding: 4rem 14rem;
@@ -193,19 +190,6 @@ body {
 
 	.contact-details {
 		font-size: 16px;
-	}
-	.send-msg-btn {
-		height: 60px;
-		width: 200px;
-	}
-	.send-msg-btn-text {
-		font-size: 16px;
-		font-weight: 400;
-		margin: 0 12px;
-	}
-	.send-msg-btn-img img {
-		width: 20px;
-		margin-left: 20px;
 	}
 
 	footer {
@@ -354,10 +338,6 @@ body {
 		width: 20px;
 		margin-left: 20px;
 	}
-	.guidance-menu-content p {
-		font-size: 16px;
-	}
-
 	.contact-section-container {
 		padding: 4rem 14rem;
 		gap: 4rem;
@@ -389,19 +369,6 @@ body {
 
 	.contact-details {
 		font-size: 16px;
-	}
-	.send-msg-btn {
-		height: 60px;
-		width: 200px;
-	}
-	.send-msg-btn-text {
-		font-size: 16px;
-		font-weight: 400;
-		margin: 0 12px;
-	}
-	.send-msg-btn-img img {
-		width: 20px;
-		margin-left: 20px;
 	}
 
 	footer {
@@ -554,9 +521,6 @@ body {
 	.more-info-btn-img img {
 		width: 20px;
 		margin-left: 20px;
-	}
-	.guidance-menu-content p {
-		font-size: 16px;
 	}
 
 	.contact-section-container {
@@ -737,9 +701,6 @@ body {
 	.more-info-btn-img img {
 		width: 20px;
 		margin-left: 20px;
-	}
-	.guidance-menu-content p {
-		font-size: 16px;
 	}
 
 	.contact-section-container {
