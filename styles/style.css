@@ -904,19 +904,7 @@ body {
 	.contact-details {
 		font-size: 16px;
 	}
-	.send-msg-btn {
-		height: 60px;
-		width: 200px;
-	}
-	.send-msg-btn-text {
-		font-size: 16px;
-		font-weight: 400;
-		margin: 0 12px;
-	}
-	.send-msg-btn-img img {
-		width: 20px;
-		margin-left: 20px;
-	}
+
 
 	footer {
 		font-size: 10px;
