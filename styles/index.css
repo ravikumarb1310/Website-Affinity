@@ -1,6 +1,6 @@
 .intro-container {
 	background-image: url("/images/bg1.jpg");
-	min-height: 10rem;
+	min-height: 50rem;
 }
 
 @media screen and (max-width: 4000px) {
