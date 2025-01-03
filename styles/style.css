@@ -222,6 +222,7 @@ body {
 		font-size: 18px;
 	}
 	.made-by {
+
 		font-size: 1rem;
 		padding: 1rem;
 	}
@@ -599,7 +600,7 @@ body {
 		font-size: 18px;
 	}
 	.made-by {
-		font-size: 0.7rem;
+		font-size: 1rem;
 		padding: 2rem 2rem;
 		font-weight: 400;
 	}
@@ -786,7 +787,7 @@ body {
 		font-size: 16px;
 	}
 	.made-by {
-		font-size: 0.7rem;
+		font-size: 1rem;
 		padding: 1rem;
 	}
 }
@@ -971,7 +972,7 @@ body {
 		font-size: 14px;
 	}
 	.made-by {
-		font-size: 0.5rem;
+		font-size: 1rem;
 		padding: 1rem;
 	}
 }
@@ -1161,7 +1162,7 @@ body {
 		font-size: 14px;
 	}
 	.made-by {
-		font-size: 0.5rem;
+		font-size: 1rem;
 		padding: 1rem;
 	}
 }
@@ -1220,7 +1221,7 @@ body {
 		font-size: 10px;
 	}
 	.made-by {
-		font-size: 0.5rem;
+		font-size: 1rem;
 		padding: 1rem;
 	}
 }
