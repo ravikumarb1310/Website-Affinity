@@ -9,6 +9,11 @@
 	font-family: "Poppins", serif;
 	font-weight: 300;
 }
+body,
+html {
+	overflow-x: hidden;
+	height: 100%;
+}
 
 html,
 body {
@@ -222,7 +227,6 @@ body {
 	}
 }
 @media screen and (max-width: 1800px) {
-
 	header {
 		font-size: 16px;
 		height: 7rem;
@@ -596,9 +600,8 @@ body {
 	}
 	.made-by {
 		font-size: 0.7rem;
-		padding: 2rem 2rem ;
+		padding: 2rem 2rem;
 		font-weight: 400;
-
 	}
 }
 
@@ -1180,7 +1183,7 @@ body {
 	.footer-info {
 		font-size: 10px;
 		padding: 1rem 1rem 1rem 1rem;
-		
+
 		text-align: center;
 		align-items: center;
 	}
