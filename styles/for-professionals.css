@@ -1,3 +1,124 @@
+@media screen and (max-width: 4000px) {
+	.info-our-policies {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		padding: 4rem 0;
+		margin-top: 4rem;
+		align-items: center;
+		margin-bottom: 4rem !important;
+	}
+
+	.our-policies-btn {
+		padding: 10px 12px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		border: none;
+		overflow: hidden;
+		cursor: pointer;
+		box-sizing: border-box;
+		transition: transform 0.3s ease;
+		background: linear-gradient(to right, #081f5c 70%, #7096d1 30%);
+	}
+
+	.our-policies-btn-text {
+		font-size: 16px;
+		font-weight: 400;
+		color: white;
+	}
+	.our-policies-btn-img {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 10px;
+	}
+
+	.our-policies-btn img {
+		width: 20px;
+		margin-left: 20px;
+	}
+
+	.our-policies-btn:hover {
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+
+	.w-a-h-left-container {
+		display: flex;
+		gap: 10px;
+		flex-direction: row;
+		margin-bottom: 4rem;
+		padding: 4rem 8rem;
+		align-items: center;
+	}
+
+	.w-a-h-left-container h1 {
+		font-weight: 400;
+		font-size: 30px;
+		margin-bottom: 2rem;
+		margin-top: 1rem;
+	}
+
+	.w-a-h-left-container p {
+		font-weight: 400;
+		font-size: 16px;
+		color: #4f4f4f;
+	}
+
+	.w-a-h-left-container img {
+		height: 30rem;
+		width: 40rem;
+		object-fit: cover;
+		object-position: center;
+		border-radius: 10px;
+		margin-left: 2rem;
+	}
+
+	.w-a-h-right-container {
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+		margin-left: 8rem;
+		margin-right: 8rem;
+		margin-bottom: 4rem;
+		align-items: center;
+	}
+
+	.w-a-h-right-container img {
+		height: 30rem;
+		width: 40rem;
+		object-fit: cover;
+		object-position: center;
+		border-radius: 10px;
+		margin-right: 2rem;
+	}
+
+	.w-a-h-right-container h1 {
+		font-weight: 400;
+		font-size: 30px;
+		margin-bottom: 2rem;
+		margin-top: 1rem;
+	}
+
+	.w-a-h-right-container p {
+		font-weight: 400;
+		font-size: 16px;
+		color: #4f4f4f;
+	}
+
+	.ofsted-btn {
+		background-color: #517470;
+		color: white;
+		padding: 10px 20px;
+		border: none;
+		font-weight: 400;
+		font-size: 18px;
+		margin-top: 2rem;
+		transition: transform 0.3s ease;
+	}
+}
 @media screen and (max-width: 1800px) {
 	.info-our-policies {
 		text-align: center;

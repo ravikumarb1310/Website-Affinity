@@ -36,6 +36,185 @@ body {
 	font-family: "Poppins", serif;
 }
 
+@media screen and (max-width: 4000px) {
+	header {
+		font-size: 16px;
+		height: 7rem;
+		padding: 1rem 6rem;
+	}
+	.logo {
+		max-width: 160px;
+		height: auto;
+	}
+	.header-nav nav ul {
+		gap: 2rem;
+	}
+
+	.intro-box {
+		padding-left: 14rem;
+		padding-right: 14rem;
+	}
+	.intro-title {
+		font-size: 44px;
+		padding-right: 7rem;
+		padding-left: 7rem;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-subtitle {
+		font-size: 28px;
+		margin-top: 2rem;
+		font-weight: 400;
+	}
+	.intro-text {
+		padding: 0 6rem;
+		margin-top: 3rem;
+		font-size: 16px;
+	}
+
+	.intro-company-name {
+		font-size: 2rem;
+		margin-top: 12rem;
+		padding-right: 5rem;
+		padding-left: 5rem;
+	}
+
+	.button-container {
+		margin-top: 60px;
+		margin-bottom: 150px;
+	}
+	.contact-us-btn {
+		height: 50px;
+		padding: 0 20px;
+		font-size: 16px;
+		margin-top: 2rem;
+	}
+	.contact-us-btn img {
+		height: 40px;
+		margin-left: 10px;
+	}
+
+	.info-header {
+		font-weight: 400;
+		font-size: 34px;
+	}
+	.info-content {
+		padding: 0rem 10rem;
+		font-size: 18px;
+	}
+
+	.info-what-we-do,
+	.info-guidance,
+	.info-our-homes,
+	.info-who-we-are {
+		margin-top: 8rem;
+	}
+	.affinity-name {
+		font-size: 22px;
+	}
+
+	.menu-left-side-image,
+	.menu-right-side-image {
+		gap: 6rem;
+	}
+
+	.menu-left-side-image-content,
+	.menu-right-side-image-content {
+		padding-top: 2rem;
+	}
+
+	.menu-left-side-image-content h1,
+	.menu-right-side-image-content h1 {
+		font-size: 30px;
+		font-weight: 400;
+		margin-bottom: 4rem;
+	}
+
+	.menu-left-side-image-content p,
+	.menu-right-side-image-content p {
+		font-size: 18px;
+		font-weight: 400;
+		margin-bottom: 4rem;
+		color: #434242;
+	}
+
+	.menu-left-side-image-img,
+	.menu-right-side-image-img {
+		height: 500px;
+		width: 700px;
+		object-fit: cover;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.15);
+	}
+
+	.more-info-btn-text {
+		font-size: 16px;
+		font-weight: 400;
+		margin-right: 10px;
+		margin-left: 22px;
+		color: white;
+	}
+	.more-info-btn {
+		height: 40px;
+		width: 160px;
+	}
+	.more-info-btn-img img {
+		width: 20px;
+		margin-left: 20px;
+	}
+	.contact-header {
+		font-size: 18px;
+	}
+	.contact-section-container {
+		padding: 4rem 14rem;
+		gap: 4rem;
+	}
+	.contact-us-form-btn {
+		padding: 10px 20px;
+	}
+
+	.contact-us-form-btn-text {
+		font-size: 18px;
+		color: white;
+		font-weight: 400;
+	}
+
+	.contact-us-form-btn-img img {
+		height: 24px;
+	}
+
+	.contact-info img {
+		height: 30px;
+		margin-bottom: 1rem;
+	}
+
+	.contact-details {
+		font-size: 16px;
+	}
+
+	footer {
+		flex-direction: row;
+		font-size: 16px;
+		padding: 2rem 10rem 2rem 8rem;
+	}
+	.footer-links {
+		margin-left: 12rem;
+	}
+	.quick-links {
+		margin-bottom: 3rem;
+		font-size: 18px;
+		margin-top: 1rem;
+	}
+	.link-list {
+		gap: 4rem;
+	}
+	.link-list ul li {
+		color: #e2ebc4;
+		margin-top: 5px;
+	}
+	.contact-details p {
+		font-size: 18px;
+	}
+}
 @media screen and (max-width: 1800px) {
 	header {
 		font-size: 16px;
@@ -954,7 +1133,20 @@ body {
 	}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+	header {
+		font-size: 8px;
+		height: 4rem;
+		padding: 1rem 1rem;
+	}
+	.logo {
+		max-width: 60px;
+		height: auto;
+	}
+	.header-nav nav ul {
+		gap: 4px;
+	}
+
 	footer {
 		font-size: 10px;
 		padding: 1rem;
