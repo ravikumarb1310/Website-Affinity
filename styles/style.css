@@ -191,14 +191,16 @@ body {
 		font-size: 16px;
 	}
 
-	footer {
+	.footer-info {
+		justify-content: space-between;
 		flex-direction: row;
-		font-size: 16px;
-		padding: 2rem 10rem 2rem 8rem;
+		font-size: 18px;
+		padding: 2rem 20rem 2rem 20rem;
 	}
 	.footer-links {
 		margin-left: 12rem;
 	}
+
 	.quick-links {
 		margin-bottom: 3rem;
 		font-size: 18px;
@@ -214,8 +216,13 @@ body {
 	.contact-details p {
 		font-size: 18px;
 	}
+	.made-by {
+		font-size: 1rem;
+		padding: 1rem;
+	}
 }
 @media screen and (max-width: 1800px) {
+
 	header {
 		font-size: 16px;
 		height: 7rem;
@@ -370,10 +377,11 @@ body {
 		font-size: 16px;
 	}
 
-	footer {
+	.footer-info {
 		flex-direction: row;
 		font-size: 16px;
 		padding: 2rem 10rem 2rem 8rem;
+		justify-content: space-between;
 	}
 	.footer-links {
 		margin-left: 12rem;
@@ -392,6 +400,11 @@ body {
 	}
 	.contact-details p {
 		font-size: 18px;
+	}
+	.made-by {
+		font-weight: 400;
+		font-size: 1rem;
+		padding: 1rem;
 	}
 }
 
@@ -553,14 +566,14 @@ body {
 		font-size: 16px;
 	}
 
-	footer {
+	.footer-info {
 		font-size: 14px;
-		padding: 2rem;
+		padding: 2rem 6rem 2rem 4rem;
 		flex-direction: row;
+		justify-content: space-between;
+		box-sizing: border-box;
 	}
-	.footer-links {
-		margin-left: 12rem;
-	}
+
 	.quick-links {
 		margin-bottom: 3rem;
 		font-size: 16px;
@@ -580,6 +593,12 @@ body {
 	}
 	.contact-details p {
 		font-size: 18px;
+	}
+	.made-by {
+		font-size: 0.7rem;
+		padding: 2rem 2rem ;
+		font-weight: 400;
+
 	}
 }
 
@@ -740,14 +759,13 @@ body {
 		font-size: 16px;
 	}
 
-	footer {
-		font-size: 14px;
-		padding: 2rem;
+	.footer-info {
+		font-size: 12px;
+		padding: 4rem;
 		flex-direction: row;
+		justify-content: space-between;
 	}
-	.footer-links {
-		margin-left: 8rem;
-	}
+
 	.quick-links {
 		margin-bottom: 1rem;
 		font-size: 16px;
@@ -755,7 +773,7 @@ body {
 	}
 
 	.link-list {
-		gap: 4rem;
+		gap: 2rem;
 	}
 	.link-list ul li {
 		color: #e2ebc4;
@@ -763,6 +781,10 @@ body {
 	}
 	.contact-details p {
 		font-size: 16px;
+	}
+	.made-by {
+		font-size: 0.7rem;
+		padding: 1rem;
 	}
 }
 
@@ -922,7 +944,7 @@ body {
 		font-size: 16px;
 	}
 
-	footer {
+	.footer-info {
 		font-size: 12px;
 		padding: 2rem;
 	}
@@ -944,6 +966,10 @@ body {
 	}
 	.contact-details p {
 		font-size: 14px;
+	}
+	.made-by {
+		font-size: 0.5rem;
+		padding: 1rem;
 	}
 }
 
@@ -1099,7 +1125,7 @@ body {
 		font-size: 16px;
 	}
 
-	footer {
+	.footer-info {
 		font-size: 10px;
 		margin: 0;
 		padding: 2rem;
@@ -1131,6 +1157,10 @@ body {
 	.contact-details p {
 		font-size: 14px;
 	}
+	.made-by {
+		font-size: 0.5rem;
+		padding: 1rem;
+	}
 }
 
 @media screen and (max-width: 450px) {
@@ -1147,18 +1177,26 @@ body {
 		gap: 4px;
 	}
 
-	footer {
+	.footer-info {
 		font-size: 10px;
-		padding: 1rem;
-		justify-content: flex-start;
+		padding: 1rem 1rem 1rem 1rem;
+		
+		text-align: center;
+		align-items: center;
 	}
 	.footer-address {
 		display: flex;
 		flex-direction: row;
 		gap: 2rem;
 	}
+	.footer-address img {
+		height: 30px;
+		width: auto;
+	}
 	.footer-links {
 		font-size: 10px;
+		flex-direction: column !important;
+		gap: 0;
 	}
 	.quick-links {
 		margin-bottom: 1rem;
@@ -1167,14 +1205,20 @@ body {
 	}
 	.link-list {
 		gap: 1rem;
+		flex-direction: column !important;
 	}
 	.link-list ul li {
 		color: #e2ebc4;
 		margin-top: 5px;
+		text-align: center;
 	}
 
 	.contact-details p {
 		font-size: 10px;
+	}
+	.made-by {
+		font-size: 0.5rem;
+		padding: 1rem;
 	}
 }
 
@@ -1367,11 +1411,29 @@ header {
 /* Footer  */
 
 footer {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+.made-by {
+	text-align: center;
+	color: black;
+}
+.made-by a {
+	text-decoration: none;
+	color: #d15a5e;
+	font-weight: 400;
+}
+.made-by a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.footer-info {
 	background-color: #184233;
 
 	display: flex;
-
-	justify-content: flex-start;
 }
 
 .footer-address {
@@ -1382,7 +1444,7 @@ footer {
 	margin-bottom: 20px;
 }
 
-footer,
+.footer-info,
 .ul1,
 .ul2,
 .ul3,
@@ -1545,6 +1607,12 @@ footer a {
 
 .contact-details a:hover {
 	font-weight: 600;
+}
+
+.made-by {
+	background-color: white;
+	margin: 0;
+	padding: 0;
 }
 
 /* .send-msg-btn {
