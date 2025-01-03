@@ -192,6 +192,7 @@ body {
 	}
 
 	footer {
+		flex-direction: row;
 		font-size: 16px;
 		padding: 2rem 10rem 2rem 8rem;
 	}
@@ -376,6 +377,7 @@ body {
 	footer {
 		font-size: 14px;
 		padding: 2rem;
+		flex-direction: row;
 	}
 	.footer-links {
 		margin-left: 12rem;
@@ -562,6 +564,7 @@ body {
 	footer {
 		font-size: 14px;
 		padding: 2rem;
+		flex-direction: row;
 	}
 	.footer-links {
 		margin-left: 8rem;
@@ -919,15 +922,24 @@ body {
 
 	footer {
 		font-size: 10px;
+		margin: 0;
 		padding: 2rem;
+		flex-direction: column;
+	}
+	.footer-address {
+		display: flex;
+		flex-direction: row;
+		gap: 2rem;
 	}
 	.footer-links {
 		font-size: 10px;
+		margin: 0;
+		padding: 2rem;
 	}
 	.quick-links {
 		margin-bottom: 1rem;
 		font-size: 12px;
-		margin-top: 1rem;
+		margin-top: 2rem;
 	}
 	.link-list {
 		gap: 2rem;
@@ -939,6 +951,38 @@ body {
 
 	.contact-details p {
 		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	footer {
+		font-size: 10px;
+		padding: 1rem;
+		justify-content: flex-start;
+	}
+	.footer-address {
+		display: flex;
+		flex-direction: row;
+		gap: 2rem;
+	}
+	.footer-links {
+		font-size: 10px;
+	}
+	.quick-links {
+		margin-bottom: 1rem;
+		font-size: 12px;
+		margin-top: 1rem;
+	}
+	.link-list {
+		gap: 1rem;
+	}
+	.link-list ul li {
+		color: #e2ebc4;
+		margin-top: 5px;
+	}
+
+	.contact-details p {
+		font-size: 10px;
 	}
 }
 
@@ -1132,10 +1176,10 @@ header {
 
 footer {
 	background-color: #184233;
-	text-align: center;
+
 	display: flex;
-	flex-direction: row;
-	justify-content: left;
+
+	justify-content: flex-start;
 }
 
 .footer-address {
@@ -1279,6 +1323,7 @@ footer a {
 	text-align: center;
 	align-items: center;
 }
+
 .contact-us-form p {
 	margin-bottom: 1rem;
 }
